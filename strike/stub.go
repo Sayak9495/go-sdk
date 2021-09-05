@@ -77,7 +77,7 @@ func (create Response_wrapper_structure) ToJson() ([]byte) {
 
 func (create *Body_structure) Wrapper () Response_wrapper_structure {
 	wrapper := Response_wrapper_structure{
-		Status: 200,
+		Status: 201,
 		Body: create,
 	}
 	return wrapper
